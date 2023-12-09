@@ -28,6 +28,7 @@ class MainAsset extends AssetBundle
     public $js = [
         'adminassets/plugins/global/plugins.bundle.js',
         'adminassets/js/scripts.bundle.js',
+        'adminassets/js/custom/utilities/modals/create-account.js',
         'adminassets/plugins/custom/datatables/datatables.bundle.js',
         'adminassets/js/custom/apps/user-management/users/list/table.js',
         'adminassets/js/custom/apps/user-management/users/list/export-users.js',
