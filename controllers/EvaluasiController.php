@@ -13,4 +13,9 @@ class EvaluasiController extends Controller
         Yii::$app->view->title = "Data Evaluasi";
         return $this->render('index');
     }
+
+    public function actionCreate()
+    {
+        return $this->render('create');
+    }
 }
