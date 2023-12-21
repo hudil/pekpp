@@ -19,4 +19,10 @@ class EvaluasiController extends Controller
         Yii::$app->view->title = "Create Evaluasi";
         return $this->render('create');
     }
+
+    public function actionKebijakan()
+    {
+        $post = Yii::$app->request->post();
+        echo json_encode($post);
+    }
 }

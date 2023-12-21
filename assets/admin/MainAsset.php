@@ -33,7 +33,8 @@ class MainAsset extends AssetBundle
         'assets/admin/plugins/global/plugins.bundle.js',
         'assets/admin/plugins/custom/prismjs/prismjs.bundle.js',
         'assets/admin/js/scripts.bundle.js',
-        'assets/admin/js/pages/custom/contacts/edit-contact.js'
+        'assets/admin/js/pages/custom/contacts/edit-contact.js',
+        'assets/admin/js/crud/insert.js'
     ];
     // public $depends = [
     //     'yii\web\YiiAsset',

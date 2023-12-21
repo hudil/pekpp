@@ -99,7 +99,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <div class="brand flex-column-auto" id="kt_brand">
                     <!--begin::Logo-->
                     <a href="index.html" class="brand-logo">
-                        <img alt="Logo" src="<?= Yii::$app->request->baseUrl ?>assets/admin/media/logos/logo-light.png" />
+                        <img alt="Logo" src="<?= Yii::$app->request->baseUrl ?>assets/admin/media/logos/pekpplogo.png" />
                     </a>
                     <!--end::Logo-->
                     <!--begin::Toggle-->
@@ -189,6 +189,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         <!--begin::Header Menu Wrapper-->
                         <div class="header-menu-wrapper header-menu-wrapper-left" id="kt_header_menu_wrapper">
                             <div id="kt_header_menu" class="header-menu header-menu-mobile header-menu-layout-default mt-3">
+                                <img src="<?= Yii::$app->request->baseUrl ?>/assets/admin/media/logos/logo bagor.png" alt="Logo Bagor" height="40" style="margin-right: 10px">
                                 <img src="<?= Yii::$app->request->baseUrl ?>/assets/admin/media/logos/berakhlak.png" alt="BerAKHLAK" height="40">
                                 <img src="<?= Yii::$app->request->baseUrl ?>/assets/admin/media/logos/banggamelayani.png" alt="Bangga Melayani Bangsa" height="90" style="margin-top: -25px">
                             </div>
@@ -293,35 +294,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <!--begin::Dropdown-->
                                 <div class="btn-group ml-2">
                                     <button type="button" class="btn btn-primary font-weight-bold">Save Changes</button>
-                                    <button type="button" class="btn btn-primary font-weight-bold dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                    <div class="dropdown-menu dropdown-menu-sm p-0 m-0 dropdown-menu-right">
-                                        <ul class="navi py-5">
-                                            <li class="navi-item">
-                                                <a href="#" class="navi-link">
-                                                    <span class="navi-icon">
-                                                        <i class="flaticon2-writing"></i>
-                                                    </span>
-                                                    <span class="navi-text">Save &amp; continue</span>
-                                                </a>
-                                            </li>
-                                            <li class="navi-item">
-                                                <a href="#" class="navi-link">
-                                                    <span class="navi-icon">
-                                                        <i class="flaticon2-medical-records"></i>
-                                                    </span>
-                                                    <span class="navi-text">Save &amp; add new</span>
-                                                </a>
-                                            </li>
-                                            <li class="navi-item">
-                                                <a href="#" class="navi-link">
-                                                    <span class="navi-icon">
-                                                        <i class="flaticon2-hourglass-1"></i>
-                                                    </span>
-                                                    <span class="navi-text">Save &amp; exit</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <!--end::Dropdown-->
                             </div>
@@ -346,17 +318,10 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
                         <!--begin::Copyright-->
                         <div class="text-dark order-2 order-md-1">
-                            <span class="text-muted font-weight-bold mr-2">2021©</span>
-                            <a href="http://keenthemes.com/metronic" target="_blank" class="text-dark-75 text-hover-primary">Keenthemes</a>
+                            <span class="text-muted font-weight-bold mr-2">2023©</span>
+                            <a href="http://keenthemes.com/metronic" target="_blank" class="text-dark-75 text-hover-primary">Bagor</a>
                         </div>
                         <!--end::Copyright-->
-                        <!--begin::Nav-->
-                        <div class="nav nav-dark">
-                            <a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-5">About</a>
-                            <a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-5">Team</a>
-                            <a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-0">Contact</a>
-                        </div>
-                        <!--end::Nav-->
                     </div>
                     <!--end::Container-->
                 </div>
