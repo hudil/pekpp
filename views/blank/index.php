@@ -225,8 +225,7 @@
         <div class="tab-content pt-5">
             <!--begin::Tab Content 1-->
             <div class="tab-pane active" id="kebijakan_pelayanan" role="tabpanel">
-                <form class="form" method="POST" action="/evaluasi/kebijakan" id="form_kebijakan_pelayanan">
-                    <input id="form-token" type="hidden" name="<?= Yii::$app->request->csrfParam ?>" value="<?= Yii::$app->request->csrfToken ?>" />
+                <form class="form">
                     <!--begin::Accordion Kebijakan Pelayanan-->
                     <div class="accordion accordion-solid accordion-toggle-plus" id="accordionExample3">
                         <div class="card">
@@ -237,7 +236,7 @@
                                 <div class="card-body">
 
                                     <div class="form-group">
-                                        <h6>1. Apakah sudah dibuat Standar Pelayanan, baik sebagian ataupun seluruh jenis pelayanan?</h6>
+                                        <h6>1. Apakah sudah dibuat Standar Pelayanan, baik sebagian ataupun seluruuh jenis pelayanan?</h6>
                                         <div class="radio-list">
                                             <label class="radio">
                                                 <input type="radio" name="dibuat_standar_pelayanan" value="Ya" />
@@ -842,7 +841,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button type="button" id="insert_kebijakan_pelayanan" class="btn btn-primary insert">Next</button>
+
                     </div>
                     <!--end::Accordion Kebijakan Pelayanan-->
                 </form>
